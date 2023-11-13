@@ -1027,6 +1027,16 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#ede4f5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 228 245 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3E2753\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(62 39 83 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-bl {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
@@ -1208,6 +1218,10 @@ html {
     margin-top: 8rem;
   }
 
+  .lg\:mt-44 {
+    margin-top: 11rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1246,6 +1260,10 @@ html {
 
   .lg\:gap-20 {
     gap: 5rem;
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
   }
 
   .lg\:px-0 {
