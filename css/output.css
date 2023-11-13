@@ -538,44 +538,140 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-64 {
+  top: -16rem;
+}
+
+.-top-72 {
+  top: -18rem;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.-left-12 {
+  left: -3rem;
+}
+
+.-left-14 {
+  left: -3.5rem;
+}
+
+.-bottom-72 {
+  bottom: -18rem;
+}
+
+.-right-14 {
+  right: -3.5rem;
+}
+
+.-left-20 {
+  left: -5rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.-left-28 {
+  left: -7rem;
+}
+
+.-right-40 {
+  right: -10rem;
+}
+
+.-right-48 {
+  right: -12rem;
+}
+
+.-left-60 {
+  left: -15rem;
+}
+
+.-left-72 {
+  left: -18rem;
+}
+
+.-top-96 {
+  top: -24rem;
+}
+
 .z-0 {
   z-index: 0;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-\[120rem\] {
-  height: 120rem;
-}
-
-.h-\[100rem\] {
-  height: 100rem;
-}
-
-.h-\[150rem\] {
-  height: 150rem;
+.hidden {
+  display: none;
 }
 
 .h-\[50rem\] {
   height: 50rem;
 }
 
-.w-10 {
-  width: 2.5rem;
+.h-\[55rem\] {
+  height: 55rem;
 }
 
-.w-72 {
-  width: 18rem;
+.h-\[75rem\] {
+  height: 75rem;
+}
+
+.h-\[70rem\] {
+  height: 70rem;
+}
+
+.h-\[60rem\] {
+  height: 60rem;
 }
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
+}
+
+.w-\[35rem\] {
+  width: 35rem;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overscroll-none {
+  overscroll-behavior: none;
 }
 
 .rounded-full {
@@ -587,8 +683,13 @@ html {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-\[\#F5F3F7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 247 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-bl {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
 .from-\[\#E942FF\] {
@@ -599,4 +700,54 @@ html {
 
 .to-\[\#8838FF\] {
   --tw-gradient-to: #8838FF var(--tw-gradient-to-position);
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:-left-28 {
+    left: -7rem;
+  }
+
+  .lg\:-top-72 {
+    top: -18rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:h-\[70rem\] {
+    height: 70rem;
+  }
+
+  .lg\:w-\[35rem\] {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:-left-28 {
+    left: -7rem;
+  }
+
+  .xl\:-top-72 {
+    top: -18rem;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:h-\[70rem\] {
+    height: 70rem;
+  }
+
+  .xl\:w-\[35rem\] {
+    width: 35rem;
+  }
 }
