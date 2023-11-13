@@ -542,6 +542,10 @@ html {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .-left-4 {
   left: -1rem;
 }
@@ -618,6 +622,22 @@ html {
   z-index: 0;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .hidden {
   display: none;
 }
@@ -666,6 +686,42 @@ html {
   width: 20rem;
 }
 
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.basis-2\/4 {
+  flex-basis: 50%;
+}
+
+.basis-full {
+  flex-basis: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -702,6 +758,29 @@ html {
   --tw-gradient-to: #8838FF var(--tw-gradient-to-position);
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -717,6 +796,10 @@ html {
     top: -18rem;
   }
 
+  .lg\:mt-32 {
+    margin-top: 8rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -727,6 +810,35 @@ html {
 
   .lg\:w-\[35rem\] {
     width: 35rem;
+  }
+
+  .lg\:w-3\/6 {
+    width: 50%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:w-9\/12 {
+    width: 75%;
+  }
+
+  .lg\:basis-2\/4 {
+    flex-basis: 50%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
