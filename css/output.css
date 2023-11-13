@@ -871,6 +871,18 @@ html {
   width: 1.75rem;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
