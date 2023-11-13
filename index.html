@@ -1,82 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- font import -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- icon import -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+    <!-- icon import -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"
+    />
 
-  <link rel="stylesheet" href="css/output.css">
-  
-  <title>Chat App CSS Illustration | Frontend Mentor</title>
-</head>
-<body class="bg-[#fafafa]">
-  <!-- background shapes -->
-  <div class="w-[30rem] lg:w-[35rem] h-[60rem] lg:h-[70rem] bg-gradient-to-bl from-[#E942FF] to-[#8838FF] z-0 rounded-full absolute -top-96 lg:-top-72 -left-72 lg:-left-28"></div>
-  <div class="w-[35rem] h-[70rem] z-0 rounded-full absolute bg-[#F5F3F7] -bottom-72 -right-48 hidden xl:block"></div>
-  <div class="flex z-10 relative flex-col lg:flex-row lg:w-9/12 m-auto px-10 lg:px-0 mt-12 lg:mt-32 gap-8 lg:gap-20 max-w-5xl">
-    <div class="basis-full lg:basis-2/4">
-      <div class="bg-white w-72 h-[576px] mx-auto rounded-3xl p-3.5 select-none shadow-2xl">
-        <div class="bg-[#F5F3F7] h-full rounded-2xl">
-          <div class="bg-white relative top-0 mx-auto h-6 w-7/12 rounded-b-2xl z-50"></div>
-          <div class="bg-gradient-to-r from-[#8838FF] to-[#E942FF] relative -top-6 rounded-t-2xl rounded-b-md h-20 text-white">
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg width="18px" height="18px" stroke-width="3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
-              <path d="M15 6L9 12L15 18" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            Samuel Green
-            Available to Walk
-            <?xml version="1.0" encoding="UTF-8"?><svg width="18px" height="18px" viewBox="0 0 24 24" stroke-width="3" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
-              <path d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z" fill="#ffffff" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M12 20.5C12.2761 20.5 12.5 20.2761 12.5 20C12.5 19.7239 12.2761 19.5 12 19.5C11.7239 19.5 11.5 19.7239 11.5 20C11.5 20.2761 11.7239 20.5 12 20.5Z" fill="#ffffff" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M12 4.5C12.2761 4.5 12.5 4.27614 12.5 4C12.5 3.72386 12.2761 3.5 12 3.5C11.7239 3.5 11.5 3.72386 11.5 4C11.5 4.27614 11.7239 4.5 12 4.5Z" fill="#ffffff" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    <link rel="stylesheet" href="css/output.css" />
+
+    <title>Chat App CSS Illustration | Frontend Mentor</title>
+  </head>
+  <body class="bg-[#fafafa]">
+    <!-- background shapes -->
+    <div
+      class="w-[30rem] lg:w-[35rem] h-[60rem] lg:h-[70rem] bg-gradient-to-bl from-[#E942FF] to-[#8838FF] z-0 rounded-full absolute -top-96 lg:-top-72 -left-72 lg:-left-28"
+    ></div>
+    <div
+      class="w-[35rem] h-[70rem] z-0 rounded-full absolute bg-[#F5F3F7] -bottom-72 -right-48 hidden xl:block"
+    ></div>
+    <div
+      class="flex z-10 relative flex-col lg:flex-row lg:w-9/12 m-auto px-10 lg:px-0 mt-12 lg:mt-32 gap-8 lg:gap-20 max-w-5xl"
+    >
+      <div class="basis-full lg:basis-2/4">
+        <div
+          class="bg-white w-72 h-[576px] mx-auto rounded-3xl p-3.5 select-none shadow-2xl"
+        >
+          <div class="bg-[#F5F3F7] h-full rounded-2xl">
+            <div
+              class="bg-white relative top-0 mx-auto h-6 w-7/12 rounded-b-2xl z-50"
+            ></div>
+            <div
+              class="bg-gradient-to-r from-[#8838FF] to-[#E942FF] relative -top-6 rounded-t-2xl rounded-b-md h-20 text-white"
+            >
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg
+                width="18px"
+                height="18px"
+                stroke-width="3"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                color="#ffffff"
+              >
+                <path
+                  d="M15 6L9 12L15 18"
+                  stroke="#ffffff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              Samuel Green Available to Walk
+              <?xml version="1.0" encoding="UTF-8"?><svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                color="#ffffff"
+              >
+                <path
+                  d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z"
+                  fill="#ffffff"
+                  stroke="#ffffff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M12 20.5C12.2761 20.5 12.5 20.2761 12.5 20C12.5 19.7239 12.2761 19.5 12 19.5C11.7239 19.5 11.5 19.7239 11.5 20C11.5 20.2761 11.7239 20.5 12 20.5Z"
+                  fill="#ffffff"
+                  stroke="#ffffff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M12 4.5C12.2761 4.5 12.5 4.27614 12.5 4C12.5 3.72386 12.2761 3.5 12 3.5C11.7239 3.5 11.5 3.72386 11.5 4C11.5 4.27614 11.7239 4.5 12 4.5Z"
+                  fill="#ffffff"
+                  stroke="#ffffff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+
+            That sounds great. I’d be happy with that. Could you send over some
+            pictures of your dog, please? Here are a few pictures. She’s a happy
+            girl! Can you make it? She looks so happy! The time we discussed
+            works. How long shall I take her out for? 30 minute walk $29 1 hour
+            walk $49 Type a message…
+            <?xml version="1.0" encoding="UTF-8"?><svg
+              width="18px"
+              height="18px"
+              stroke-width="3"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#ffffff"
+            >
+              <path
+                d="M9 6L15 12L9 18"
+                stroke="#ffffff"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
             </svg>
           </div>
-
-          That sounds great. I’d be happy with that.
-
-          Could you send over some pictures of your dog, please?
-
-          Here are a few pictures. She’s a happy girl!
-
-          Can you make it?
-
-          She looks so happy! The time we discussed works. How long shall I take her out for?
-
-          30 minute walk
-          $29
-
-          1 hour walk
-          $49
-
-          Type a message…
-          <?xml version="1.0" encoding="UTF-8"?><svg width="18px" height="18px" stroke-width="3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
-            <path d="M9 6L15 12L9 18" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
         </div>
       </div>
+      <div class="flex flex-col basis-full lg:basis-2/4 justify-center gap-6">
+        <h1
+          class="text-4xl font-medium text-[#3E2753] text-center lg:text-left"
+        >
+          Simple booking
+        </h1>
+        <p class="text-[#A39DAA] leading-7 text-center lg:text-left">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
     </div>
-    <div class="flex flex-col basis-full lg:basis-2/4 justify-center gap-6">
-      <h1 class="text-4xl font-medium text-[#3E2753] text-center lg:text-left">
-        Simple booking
-      </h1>
-      <p class="text-[#A39DAA] leading-7 text-center lg:text-left">
-        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-        discuss arrangements and make bookings. Once the walk has been completed you can rate 
-        your walker and book again all through the chat.
-      </p>
-    </div>
-  </div>
-  
-  <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>. -->
 
-</body>
+    <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>. -->
+  </body>
 </html>
