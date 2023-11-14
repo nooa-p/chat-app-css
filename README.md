@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/chat-app-css-illustration-with-tailwind-css-ZF9lhgB-Cb](https://www.frontendmentor.io/solutions/chat-app-css-illustration-with-tailwind-css-ZF9lhgB-Cb)
 - Live Site URL: [https://nooa-p.github.io/chat-app-css/](https://nooa-p.github.io/chat-app-css/)
 
 ## My process
